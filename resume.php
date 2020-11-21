@@ -14,7 +14,7 @@
 					<p><em>Highly organized and detail-oriented honors undergraduate from Universiti Teknologi Mara (UiTM). Seeking for an opportunity internships placement to gain experiences. A fast-learner student who willing to learn new language, skills and any knowledges. Passionate on polish my technical skills for better future.</em></p>
 					<ul>
 						<li>Melaka, Malaysia</li>
-						<li>(+60) 11555566</li>
+						<li>(+60) 1123456789</li>
 						<li>nasuhasri00@gmail.com</li>
 					</ul>
 				</div>

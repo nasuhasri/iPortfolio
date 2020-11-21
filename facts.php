@@ -1,5 +1,5 @@
 <section id="facts" class="facts">
-  <div class="container">
+    <div class="container">
 
 		<div class="section-title">
 			<h2>Facts</h2>
@@ -40,7 +40,7 @@
 				</div>
 			</div>
 
-		</div>
-
-  </div>
+        </div>
+        
+    </div>
 </section>

@@ -62,3 +62,14 @@
 
 	</div>
 </section>
+
+<section id="future" class="future section-bg">
+    <div class="container">
+        <div class="section-title">
+			<h2>Where Do I See Myself in 10 Years?</h2>
+            <p>For the next 10 years, I will be 30. At the age of 30, I see myself as a software engineer with a Bachelor of Information Systems (HONS.) Intelligent System Engineering. At that point, I have truly discovered the passion in web development or mobile development, what can I do for the rest 20 years and  how I can face the upcoming challenges coming to me with a mature thinking and solution. <br><br>
+            Throughout the journey, I find myself as a dedicated person who wants to contribute back to the society and drawn to the position of software engineer. If I have a chance to pursue my studies in a higher level then I might be a master or phd students in early 30s.
+            </p>
+		</div>
+    </div>
+</section>
