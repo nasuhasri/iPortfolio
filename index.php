@@ -3,6 +3,14 @@
 
 <head>
   <?php include ("head.php") ?>
+  <script>
+		$(document).ready(function() {
+			$('#sem1').DataTable();
+		});
+		$(document).ready(function() {
+			$('#sem2').DataTable();
+		});
+  </script>
 </head>
 
 <body>
@@ -28,6 +36,10 @@
     <!-- ======= About Section ======= -->
     <?php include ("about.php") ?>
     <!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <?php include("academic.php") ?>
+    <!-- End Skills Section -->
 
     <!-- ======= Skills Section ======= -->
     <?php include("skills.php") ?>
@@ -180,7 +192,7 @@
                 </div>
             </div>
         </div>
-    </div>
+		</div>
 
 </body>
 
