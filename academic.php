@@ -17,8 +17,8 @@
                 </ul>
             </div>
         </div>
-        <div class="row portfolio-container col-lg-12 col-md-6">
-            <table id="sem1" class="portfolio-item filter-sem1" style="width:100%">
+        <div class="row portfolio-container" data-aos="fade-right">
+            <table id="sem1" class="portfolio-item filter-sem1">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -79,7 +79,7 @@
                 </tbody>
             </table>
 
-            <table id="sem2" class="portfolio-item filter-sem2" style="width:100%">
+            <table id="sem2" class="portfolio-item filter-sem2">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -129,6 +129,159 @@
                         <td>7</td>
                         <td>MAT183</td>
                         <td>CALCULUS I</td>
+                        <td>3.0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="sem3" class="portfolio-item filter-sem3">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Course Code</th>
+                        <th>Name of Course</th>
+                        <th>Credit Hour(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>CSC238</td>
+                        <td>OBJECT ORIENTED PROGRAMMING</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CTU211</td>
+                        <td>SCIENCE AND TECHNOLOGY IN ISLAM</td>
+                        <td>2.0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>ELC231</td>
+                        <td>INTEGRATED LANGUAGE SKILLS III</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>HKR221</td>
+                        <td>MANAGEMENT OF FAMILY INSTITUTION II</td>
+                        <td>1.0</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>ITS232</td>
+                        <td>INTRODUCTION TO DATABASE MANAGEMENT SYSTEMS</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>MAT210</td>
+                        <td>DISCRETE MATHEMATICS</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MGT162</td>
+                        <td>FUNDAMENTALS OF MANAGEMENT</td>
+                        <td>3.0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="sem4" class="portfolio-item filter-sem4">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Course Code</th>
+                        <th>Name of Course</th>
+                        <th>Credit Hour(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>CSC204</td>
+                        <td>PRACTICAL APPROACH OF OPERATING SYSTEM</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CSC248</td>
+                        <td>FUNDAMENTALS OF DATA STRUCTURE</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>CSC253</td>
+                        <td>INTERACTIVE MULTIMEDIA</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>ENT300</td>
+                        <td>FUNDAMENTALS OF ENTREPRENEURSHIP</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>ITS332</td>
+                        <td>INFORMATION SYSTEMS DEVELOPMENT</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>STA116</td>
+                        <td>INTRODUCTION TO PROBABILITY AND STATISTICS</td>
+                        <td>3.0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="sem5" class="portfolio-item filter-sem5">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Course Code</th>
+                        <th>Name of Course</th>
+                        <th>Credit Hour(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>CSC301</td>
+                        <td>VISUAL PROGRAMMING</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CSC305</td>
+                        <td>PROGRAMMING PARADIGMS</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>CSC318</td>
+                        <td>WEB APPLICATION DEVELOPMENT</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>CSC397</td>
+                        <td>PRACTICAL TRAINING</td>
+                        <td>4.0</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>ITT300</td>
+                        <td>INTRODUCTION TO DATA COMMUNICATION AND NETWORKING</td>
+                        <td>3.0</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>MAT263</td>
+                        <td>LINEAR ALGEBRA I</td>
                         <td>3.0</td>
                     </tr>
                 </tbody>
