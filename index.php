@@ -10,7 +10,10 @@
 		$(document).ready(function() {
 			$('#sem2').DataTable();
 		});
-  	</script>
+      </script>
+    <script>
+        alert("Hi guyss! Thank you for viewing my portfolio. Im glad if you can give me any comments or feedback for me to improve this, thanks again!")
+    </script>
   	<style>
 		table {
 			width: 70%;
@@ -30,7 +33,12 @@
 			padding: 10px;
 			border: solid 1px;
 			text-align: center;
-		}
+        }
+        
+        .alert{
+            width: 40%;
+            position: relative;
+        }
   	</style>
 </head>
 
@@ -41,14 +49,20 @@
 
 	<!-- ======= Header ======= -->
 	<?php include("navbar.php") ?>
-	<!-- End Header -->
-
+    <!-- End Header -->
+    
 	<!-- ======= Hero Section ======= -->
-	<section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+	<section id="hero" class="d-flex flex-column justify-content-center align-items-center">       
+
+        <div class="hero-container alert alert-info alert-dismissible" role="alert">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            Pstt if any of you craving for chocolates, do visit my shopee account <a href="https://shopee.com.my/nasuhasri" class="alert-link" target="no_blank">@nasuhasri</a> or simply ws me <a href="https://t.co/h7LfiF4Ixw?amp=1" target="no_blank" class="alert-link">wa.link/ez3sul</a>. Give it a click if you like!
+        </div>
+        
 		<div class="hero-container" data-aos="fade-in">
-		<h1>Nasuha Asri</h1>
-		<p>I'm <span class="typed" data-typed-items="Student, Developer, Freelancer"></span></p>
-		</div>
+		    <h1>Nasuha Asri</h1>
+		    <p>I'm <span class="typed" data-typed-items="Student, Developer, Freelancer"></span></p>
+        </div>
 	</section>
 	<!-- End Hero -->
 
@@ -88,7 +102,7 @@
 	<!-- Back To Top -->
 	<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-	<?php include("script.php") ?>
+    <?php include("script.php") ?>
 	
 	<!-- First Modal -->
 	<div class="modal fade" id="firstPort" tabindex="-1" aria-labelledby="firstPortLabel" aria-hidden="true">
