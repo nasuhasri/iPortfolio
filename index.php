@@ -37,7 +37,6 @@
         
         .alert{
             width: 40%;
-            position: relative;
         }
   	</style>
 </head>
