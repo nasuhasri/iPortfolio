@@ -55,7 +55,7 @@
 
         <div class="hero-container alert alert-info alert-dismissible" role="alert">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-            Pstt if any of you craving for chocolates, do visit my shopee account <a href="https://shopee.com.my/nasuhasri" class="alert-link" target="no_blank">@nasuhasri</a> or simply ws me <a href="https://t.co/h7LfiF4Ixw?amp=1" target="no_blank" class="alert-link">wa.link/ez3sul</a>. Give it a click if you like!
+            Pstt if any of you craving for chocolates, do visit my shopee account <a href="https://shopee.com.my/nasuhasri" class="alert-link" target="no_blank">@nasuhasri</a> or simply ws me <a href="https://coklatneyna.wasap.my" target="no_blank" class="alert-link">wasap.my</a>. Give it a click if you like!
         </div>
         
 		<div class="hero-container" data-aos="fade-in">
