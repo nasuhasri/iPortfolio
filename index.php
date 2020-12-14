@@ -2,109 +2,165 @@
 <html lang="en">
 
 <head>
-	<?php include ("head.php") ?>
-  	<script>
-		$(document).ready(function() {
-			$('#sem1').DataTable();
-		});
-		$(document).ready(function() {
-			$('#sem2').DataTable();
-		});
-      </script>
+    <?php include("head.php") ?>
     <script>
         alert("Hi guyss! Thank you for viewing my portfolio. Im glad if you can give me any comments or feedback for me to improve this, thanks again!")
-    </script>
-  	<style>
-		table {
-			width: 70%;
-			margin: 20px auto;
-			table-layout: auto;
-		}
 
-		.fixed {
-			table-layout: fixed;
-		}
-
-		table, td, th {
-			border-collapse: collapse;
-		}
-
-		th, td {
-			padding: 10px;
-			border: solid 1px;
-			text-align: center;
+        function sendMessage() {
+            alert("Sorry! This form is not working!");
         }
-        
-        .alert{
+
+        //document.getElementById("player").autoplay;
+    </script>
+    <style>
+        table {
+            width: 70%;
+            margin: 20px auto;
+            table-layout: auto;
+        }
+
+        .fixed {
+            table-layout: fixed;
+        }
+
+        table,
+        td,
+        th {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: solid 1px;
+            text-align: center;
+        }
+
+        .alert {
             width: 40%;
         }
-  	</style>
+
+        .hero-container .audio {
+            float: right;
+            margin-top: 0;
+            /* max-width: 200px; */
+            position: absolute;
+            top: 0;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
 
-	<!-- ======= Mobile nav toggle button ======= -->
-	<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-	<!-- ======= Header ======= -->
-	<?php include("navbar.php") ?>
+    <!-- ======= Header ======= -->
+    <?php include("navbar.php") ?>
     <!-- End Header -->
-    
-	<!-- ======= Hero Section ======= -->
-	<section id="hero" class="d-flex flex-column justify-content-center align-items-center">       
 
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <!-- <div class="hero-container">
+            <audio controls="controls" autoplay="autoplay">
+                <source src="day-night.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div> -->
         <div class="hero-container alert alert-info alert-dismissible" role="alert">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             Pstt if any of you craving for chocolates, do visit my shopee account <a href="https://shopee.com.my/nasuhasri" class="alert-link" target="no_blank">@nasuhasri</a> or simply ws me <a href="https://coklatneyna.wasap.my" target="no_blank" class="alert-link">wasap.my</a>. Give it a click if you like!
         </div>
-        
-		<div class="hero-container" data-aos="fade-in">
-		    <h1>Nasuha Asri</h1>
-		    <p>I'm <span class="typed" data-typed-items="Student, Developer, Freelancer"></span></p>
+
+        <div class="hero-container" data-aos="fade-in">
+            <h1>Nasuha Asri</h1>
+            <p>I'm <span class="typed" data-typed-items="Student, Developer, Freelancer"></span></p>
         </div>
-	</section>
-	<!-- End Hero -->
+    </section>
+    <!-- End Hero -->
 
-	<main id="main">
+    <main id="main">
 
-		<!-- ======= About Section ======= -->
-		<?php include ("about.php") ?>
-		<!-- End About Section -->
+        <audio id="player" autoplay="autoplay" controls>
+            <source src="assets/day-night.mp3" type="audio/mp3">
+        </audio>
+        <!-- <audio controls>
+            <source src="day-night.ogg" type="audio/ogg">
+            <source src="day-night.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            <embed src=“day-night.mp3”></embed>
+        </audio> -->
 
-		<!-- ======= Skills Section ======= -->
-		<?php include("academic.php") ?>
-		<!-- End Skills Section -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
 
-		<!-- ======= Skills Section ======= -->
-		<?php include("skills.php") ?>
-		<!-- End Skills Section -->
+        <!-- ======= About Section ======= -->
+        <?php include("about.php") ?>
+        <!-- End About Section -->
 
-		<!-- ======= Resume Section ======= -->
-		<?php include("resume.php") ?>
-		<!-- End Resume Section -->
+        <!-- ======= Skills Section ======= -->
+        <?php include("academic.php") ?>
+        <!-- End Skills Section -->
 
-		<!-- ======= Portfolio Section ======= -->
-		<?php include("portfolio.php") ?>
-		<!-- End Portfolio Section -->
+        <!-- ======= Skills Section ======= -->
+        <?php include("skills.php") ?>
+        <!-- End Skills Section -->
 
-		<!-- ======= Contact Section ======= -->
-		<?php include("contact.php") ?>
-		<!-- End Contact Section -->
+        <!-- ======= Resume Section ======= -->
+        <?php include("resume.php") ?>
+        <!-- End Resume Section -->
 
-	</main>
-	<!-- End #main -->
+        <!-- ======= Portfolio Section ======= -->
+        <?php include("portfolio.php") ?>
+        <!-- End Portfolio Section -->
 
-	<!-- ======= Footer ======= -->
-	<!-- </?php include("footer.php") ?> -->
-	<!-- End  Footer -->
+        <!-- ======= Contact Section ======= -->
+        <?php include("contact.php") ?>
+        <!-- End Contact Section -->
 
-	<!-- Back To Top -->
-	<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <!-- </?php include("footer.php") ?> -->
+    <!-- End  Footer -->
+
+    <!-- Back To Top -->
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
     <?php include("script.php") ?>
-	
-	<!-- First Modal -->
-	<div class="modal fade" id="firstPort" tabindex="-1" aria-labelledby="firstPortLabel" aria-hidden="true">
+
+    <!-- First Modal -->
+    <div class="modal fade" id="firstPort" tabindex="-1" aria-labelledby="firstPortLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -178,7 +234,7 @@
                 </div>
                 <div class="modal-body">
                     <img src="assets/img/portfolio/sem2-c++.jpg" style="height:400px;max-width: 100%;"><br><br>
-                    <p class="mb-5">Student Record Management is using C++ language. This project is built during semester 2 of diploma to fulfil the Structured Programming course. This project apply few algorithms; sorting, searching, finding maximum and minimum value, counting,  apply 2D-array and using function. </p>
+                    <p class="mb-5">Student Record Management is using C++ language. This project is built during semester 2 of diploma to fulfil the Structured Programming course. This project apply few algorithms; sorting, searching, finding maximum and minimum value, counting, apply 2D-array and using function. </p>
                 </div>
                 <div class="modal-footer justify-content-center">
                     <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
@@ -227,7 +283,7 @@
                 </div>
             </div>
         </div>
-	</div>
+    </div>
 
 </body>
 

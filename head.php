@@ -9,6 +9,9 @@
     <!-- <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
+    <!-- Fa fa icon -->
+    <script src="https://use.fontawesome.com/d33f139c24.js"></script>
+
     <link type="image/x-icon"  href="assets/img/icon/4.png" rel="shortcut icon" sizes="32x32">
 
     <!-- Google Fonts -->
