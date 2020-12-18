@@ -21,20 +21,24 @@
                 <li><a href="#academic"><i class="bx bx-book-content"></i> Academic</a></li>
                 <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
                 <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>
-                <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-            
-                <div class="dropdown-divider"></div> -->
+                <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li> -->
+
                 <li><a href="randomFacts.php"><i class='bx bx-atom'></i> <span>Facts</span></a></li>
-                <li><a href="roleModel.php"><i class='bx bxs-book-heart'></i> <span> Model</span></a></li>
+                <li><a href="roleModel.php"><i class='bx bxs-book-heart'></i> <span> Role Model</span></a></li>
                 <li><a href="places.php"><i class='bx bxs-plane-alt'></i> <span> Places</span></a></li>
                 <li><a href="quiz.php"><i class="icofont-pen-alt-1"></i> <span>Quick Test</span></a></li>
             </ul>
 
+            <!-- Javascript to highlight current navigation -->
             <script type="text/javascript">
                 const currentLocation = location.href;
+                // Select all menu in <a> tag
                 const menuItem = document.querySelectorAll('a');
+                
+                // Get length for menuItem
                 const menuLength = menuItem.length;
 
+                // Compare menuItem
                 for(var i = 0; i < menuLength; i++){
                     if(menuItem[i].href === currentLocation){
                         menuItem[i].className = "active"

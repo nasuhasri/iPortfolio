@@ -3,24 +3,23 @@
 
 <head>
     <?php include("head.php") ?>
-    <script>
+    <script type="text/javascript">
         alert("Hi guyss! Thank you for viewing my portfolio. Im glad if you can give me any comments or feedback for me to improve this, thanks again!")
 
         function sendMessage() {
             alert("Sorry! This form is not working!");
         }
-
-        //document.getElementById("player").autoplay;
     </script>
     <style>
         table {
-            width: 70%;
+            width: 100%;
             margin: 20px auto;
             table-layout: auto;
+            display: none;
         }
 
         .fixed {
-            table-layout: fixed;
+            table-layout: auto;
         }
 
         table,
@@ -62,12 +61,6 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-        <!-- <div class="hero-container">
-            <audio controls="controls" autoplay="autoplay">
-                <source src="day-night.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div> -->
         <div class="hero-container alert alert-info alert-dismissible" role="alert">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             Pstt if any of you craving for chocolates, do visit my shopee account <a href="https://shopee.com.my/nasuhasri" class="alert-link" target="no_blank">@nasuhasri</a> or simply ws me <a href="https://coklatneyna.wasap.my" target="no_blank" class="alert-link">wasap.my</a>. Give it a click if you like!
@@ -85,12 +78,6 @@
         <audio id="player" autoplay="autoplay" controls>
             <source src="assets/day-night.mp3" type="audio/mp3">
         </audio>
-        <!-- <audio controls>
-            <source src="day-night.ogg" type="audio/ogg">
-            <source src="day-night.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-            <embed src=“day-night.mp3”></embed>
-        </audio> -->
 
         <!-- ======= About Section ======= -->
         <?php include("about.php") ?>
@@ -118,10 +105,6 @@
 
     </main>
     <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <!-- </?php include("footer.php") ?> -->
-    <!-- End  Footer -->
 
     <!-- Back To Top -->
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>

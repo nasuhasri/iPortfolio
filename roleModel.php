@@ -46,12 +46,12 @@
                         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                             <div class="icon"><i class="icofont-ui-love"></i></div>
                             <h4 class="title"><a href="#">Kindness</a></h4>
-                            <p class="description" style="font-size: medium;">He is a writer of 8 books. All his books has its own great value where we can apply them in our life. When he wants to produce a new book, he will take a considerate of his readers who are mostly students. He will ask a lot of questions to know either his readers afford to buy his books. In the early involvement in being a writer, he sneaked out to a book store then write notes for his readers and put them in his books. This kind of small gesture really takes a big effort to do it as he do not want people to know him.</p>
+                            <p class="description" style="font-size: medium;">In the early involvement in being a writer, he sneaked out to a book store then write notes for his readers and put them in his books. This kind of small gesture really takes a big effort to do it as he do not want people to know him.</p>
                         </div>
                         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon"><i class="icofont-architecture-alt"></i></div>
                             <h4 class="title"><a href="#">An Architect</a></h4>
-                            <p class="description">He was graduated from architect school in United Kingdom and now works as an architect there since 2016. He has a great career and very passionate in drawing. I like how he portays his life in his books where I get to see how difficult it is to live overseas and gain money while study. I still remember how difficult he was to choose between religion course and architect course. Therefore, I want to be like him, someone who has both dunya and akhirah. I want to be a software engineer that can contribute more to my society and religion.</p>
+                            <p class="description">He was graduated from architect school in United Kingdom and now works as an architect there since 2016. He has a great career and very passionate in drawing. I like how he portays his life in his books where I get to see how difficult it is to live overseas and gain money while study.</p>
                         </div>
                         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                             <div class="icon"><i class="icofont-earth"></i></div>
@@ -66,7 +66,7 @@
                         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                             <div class="icon"><i class="icofont-drawing-tablet"></i></div>
                             <h4 class="title"><a href="">Creatives</a></h4>
-                            <p class="description">One word that can describe Teme Abdullah is creative. He is very creative. Other than being creative at his own works, he also creative in creating a character in his books and making a great content out of it. I believe he is a great architect that can produce a great work. Hence I aspired to be like him in my own field which is computer science.</p>
+                            <p class="description">He is very creative. Other than being creative at his own works, he also creative in creating a character in his books and making a great content out of it. I believe he is a great architect that can produce a great work. Hence I aspired to be like him in my own field which is computer science.</p>
                         </div>
                     </div>
 

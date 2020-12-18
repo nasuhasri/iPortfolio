@@ -133,7 +133,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Field I Like -->
+                                <!-- Interest I Like -->
                                 <div class="row form-group">
                                     <div class="col col-md-3">
                                         <label for="select" class="form-control-label">Interests</label>

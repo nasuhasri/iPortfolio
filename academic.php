@@ -8,23 +8,22 @@
         <div class="row" data-aos="fade-up">
             <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-sem1">Semester 1</li>
-                    <li data-filter=".filter-sem2">Semester 2</li>
-                    <li data-filter=".filter-sem3">Semester 3</li>
-                    <li data-filter=".filter-sem4">Semester 4</li>
-                    <li data-filter=".filter-sem5">Semester 5</li>
+                    <li><button type="button" id="btn1" class="btn btn-primary" onclick="tableSem1()" value="sem1">Semester 1</button></li>
+                    <li><button type="button" id="btn2" class="btn btn-primary" onclick="tableSem2()" value="sem2">Semester 2</button></li>
+                    <li><button type="button" id="btn3" class="btn btn-primary" onclick="tableSem3()" value="sem2">Semester 3</button></li>
+                    <li><button type="button" id="btn4" class="btn btn-primary" onclick="tableSem4()" value="sem3">Semester 4</button></li>
+                    <li><button type="button" id="btn5" class="btn btn-primary" onclick="tableSem5()" value="sem3">Semester 5</button></li>
                 </ul>
             </div>
         </div>
         <div class="row portfolio-container" data-aos="fade-right">
-            <table id="sem1" class="portfolio-item filter-sem1">
+            <table id="sem1" class="portfolio-item filter-sem1 table-light table-hover">
                 <thead>
                     <tr>
                         <th>#</th>
                         <th>Course Code</th>
                         <th>Name of Course</th>
-                        <th>Credit Hour(s)</th>
+                        <th>Credit Hour</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -79,7 +78,7 @@
                 </tbody>
             </table>
 
-            <table id="sem2" class="portfolio-item filter-sem2">
+            <table id="sem2" class="portfolio-item filter-sem2 table-light table-hover">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -134,7 +133,7 @@
                 </tbody>
             </table>
 
-            <table id="sem3" class="portfolio-item filter-sem3">
+            <table id="sem3" class="portfolio-item filter-sem3 table-light table-hover">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -189,7 +188,7 @@
                 </tbody>
             </table>
 
-            <table id="sem4" class="portfolio-item filter-sem4">
+            <table id="sem4" class="portfolio-item filter-sem4 table-light table-hover">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -238,7 +237,7 @@
                 </tbody>
             </table>
 
-            <table id="sem5" class="portfolio-item filter-sem5">
+            <table id="sem5" class="portfolio-item filter-sem5 table-light table-hover">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -288,4 +287,86 @@
             </table>
         </div>
     </div>
+
+    <script type="text/javascript">
+        function tableSem1() {
+            // table1
+            var x = document.getElementById("sem1");
+
+            // get current style of table
+            var displaySetting = x.style.display;
+
+            // table is displayed, hide it
+            if (displaySetting === "block") {
+                x.style.display = "none"
+            } else {
+                // table is hidden, show it
+                x.style.display = "block"
+            }
+        }
+
+        function tableSem2() {
+            // table2
+            var x = document.getElementById("sem2");
+
+            // get current style of table
+            var displaySetting = x.style.display;
+
+            // table is displayed, hide it
+            if (displaySetting === "block") {
+                x.style.display = "none"
+            } else {
+                // table is hidden, show it
+                x.style.display = "block"
+            }
+        }
+
+        function tableSem3() {
+            // table3
+            var x = document.getElementById("sem3");
+
+            // get current style of table
+            var displaySetting = x.style.display;
+
+            // table is displayed, hide it
+            if (displaySetting === "block") {
+                x.style.display = "none"
+            } else {
+                // table is hidden, show it
+                x.style.display = "block"
+            }
+        }
+
+        function tableSem4() {
+            // table4
+            var x = document.getElementById("sem4");
+
+            // get current style of table
+            var displaySetting = x.style.display;
+
+            // table is displayed, hide it
+            if (displaySetting === "block") {
+                x.style.display = "none"
+            } else {
+                // table is hidden, show it
+                x.style.display = "block"
+            }
+        }
+
+        function tableSem5() {
+            // table5
+            var x = document.getElementById("sem5");
+
+            // get current style of table
+            var displaySetting = x.style.display;
+
+            // table is displayed, hide it
+            if (displaySetting === "block") {
+                x.style.display = "none"
+            } else {
+                // table is hidden, show it
+                x.style.display = "block"
+            }
+        }
+    </script>
 </section>

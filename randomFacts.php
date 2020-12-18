@@ -160,9 +160,7 @@
                     <div class="description" style="text-align: justify;">
                         Trilogi Ajaib is one of the most favourite books that I have read. It is written by Syafiq Aizat and was first published in 2013. It is still ranked as a bestseller book since the first publication. The genres are religion, mystery, friendship, teenager and horror. As you can see in the poster above, it has 3 books in total; Ajaib, Awan and Aksara. <br><br>
 
-                        The first book is about a 12 year-old boy, Izaq who has a problem - he sees ghost. During his journey as a year 6 primary school student, he has to solve his friends' conflict. He has a mature thinking to solve the problem and then met Faiq, a boy who can read minds. Conflict began to happen when Izaq receives a letter from his crush. <br><br>
-
-                        Once you have read the first book, you will want to read what happened to Izaq and Faiq in the second book once they entered the secondary school. The books are about friendship, family and how we think to solve a problem. What I love the most about this book is the plot. The writer plan the plot nicely and you can feel every scenes is well written. I like how the writer writes the book and make us think to solve the mystery lies behind the books. <br><br>
+                        The books are about friendship, family and how we think to solve a problem. What I love the most about this book is the plot. The writer plan the plot nicely and you can feel every scenes is well written. I like how the writer writes the book and make us think to solve the mystery lies behind the books. <br><br>
                         
                         At the end of the story in Aksara, you will get many valuable values. 
                     </div>
@@ -172,7 +170,7 @@
         <!-- End #main -->
 
         <!-- Back To Top -->
-        <!-- <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> -->
+        <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
         <?php include("script.php") ?>
 
