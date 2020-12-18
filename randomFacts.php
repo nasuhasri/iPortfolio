@@ -172,7 +172,7 @@
         <!-- End #main -->
 
         <!-- Back To Top -->
-        <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+        <!-- <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> -->
 
         <?php include("script.php") ?>
 
