@@ -5,10 +5,6 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <!-- <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
-
     <!-- Fa fa icon -->
     <script src="https://use.fontawesome.com/d33f139c24.js"></script>
 
